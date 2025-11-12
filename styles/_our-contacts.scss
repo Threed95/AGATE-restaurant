@@ -1,0 +1,43 @@
+.our-contacts {
+    margin: 0 0 60px;
+    list-style-type: none;
+    &__item {
+        font-size: 1.4rem;
+        font-weight: $letter-weight;
+        line-height: 1.98rem;
+        a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .our-contacts {
+        margin: 0 0 50px;
+        &__item {
+            font-size: $base-font;
+            line-height: 1.42rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .our-contacts {
+        margin: 0 0 40px;
+        &__item {
+            font-size: 0.88rem;
+            line-height: 1.25rem;
+        }
+    }
+}
+
+@media screen and (max-width:520px) {
+    .our-contacts {
+        margin: 0 0 20px;
+        &__item {
+            font-size: 0.72rem;
+            line-height: 0.9rem;
+        }
+    }
+}

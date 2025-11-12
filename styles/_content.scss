@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    &__image {
+        width: calc((100% - 12px * 4) / 2);
+        margin: 12px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .content {
+        &__image {
+            width: calc((100% - 5px * 4) / 2);
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        &__image {
+            width: calc((100% - 6px * 4) / 2);
+            margin: 6px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        &__image {
+            width: calc((100% - 5px * 4) / 2);
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .content {
+        &__image {
+            width: calc((100% - 4px * 4) / 2);
+            margin: 4px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.paragraph {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: $letter-weight;
+}
+
+@media screen and (max-width:1024px) {
+    .paragraph {
+        font-size: 0.88rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .paragraph {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .paragraph {
+        font-size: 0.64rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .paragraph {
+        font-size: 0.56rem;
+    }
+}

@@ -1,0 +1,26 @@
+.contact-us {
+    color: $primary-color;
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:1024px) {
+    .contact-us {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact-us {
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .contact-us {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}

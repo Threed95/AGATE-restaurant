@@ -1,0 +1,58 @@
+        .about-chef {
+            background-color: $bg-color;
+            @include section-padding;
+            &__text {
+                width: 939px;
+                line-height: 1.64rem;
+                margin: 0 auto 30px;
+                &:first-of-type {
+                    color: $text-color;
+                }
+            }
+        }
+        
+        @media screen and (max-width:1024px) {
+            .about-chef {
+                @include section-padding1024;
+                &__text {
+                    width: 691px;
+                    line-height: 1.16rem;
+                }
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            .about-chef {
+                @include section-padding768;
+                &__text {
+                    width: 626px;
+                    line-height: 1.1rem;
+                    &:first-of-type {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width:650px) {
+            .about-chef {
+                padding: 60px 0;
+                &__text {
+                    width: 470px;
+                    line-height: 0.88rem;
+                    &:first-of-type {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width:450px) {
+            .about-chef {
+                @include section-padding450;
+                &__text {
+                    width: 360px;
+                    line-height: 0.76rem;
+                }
+            }
+        }

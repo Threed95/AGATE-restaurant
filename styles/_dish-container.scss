@@ -1,0 +1,23 @@
+.dish-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:1024px) {
+    .dish-container {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .dish-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .dish-container {
+        align-items: center;
+    }
+}

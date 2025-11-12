@@ -1,0 +1,31 @@
+    .dish {
+        @include section-padding;
+        &__text {
+            color: $text-color;
+            margin-bottom: 60px;
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        .dish {
+            @include section-padding1024;
+            &__text {
+                margin-bottom: 48px;
+            }
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .dish {
+            padding: 70px 24px 70px 52px;
+            &__text {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+    @media screen and (max-width:680px) {
+        .dish {
+            padding: 60px 12px 60px 40px;
+        }
+    }

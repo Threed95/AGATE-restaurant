@@ -1,0 +1,48 @@
+.about-us {
+    background-color: $bg-color;
+    @include section-padding;
+    &__text {
+        width: 941px;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-us {
+        @include section-padding1024;
+        &__text {
+            width: 602px;
+            line-height: 1.2rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-us {
+        @include section-padding768;
+        &__text {
+            width: 541px;
+            line-height: 1.09rem;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-us {
+        @include section-padding600;
+        &__text {
+            width: 430px;
+            line-height: 0.87rem;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .about-us {
+        @include section-padding450;
+        &__text {
+            width: 350px;
+            line-height: 0.76rem;
+        }
+    }
+}

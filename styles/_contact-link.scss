@@ -1,0 +1,29 @@
+.contact-link:hover {
+    transition: all .5s linear 1s;
+}
+
+.contact-link--white {
+    @include contact-link($primary-color, 2px solid $primary-color);
+    &:hover {
+        @include hover-link($secondary-color);
+    }
+}
+
+.contact-link--black {
+    @include contact-link($secondary-color, 2px solid $secondary-color);
+    &:hover {
+        @include hover-link(green);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact-link {
+        @include contact-link1024;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contact-link {
+        @include contact-link600;
+    }
+}

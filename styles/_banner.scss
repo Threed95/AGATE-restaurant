@@ -1,0 +1,52 @@
+.banner {
+    padding-bottom: 185px;
+    padding-top: 218px;
+    &__text {
+        margin-bottom: 60px;
+        font-size: $base-font;
+        color: $primary-color;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .banner {
+        padding-top: 183px;
+        padding-bottom: 153px;
+        &__text {
+            font-size: 0.72rem;
+            margin-bottom: 63px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner {
+        padding-top: 171px;
+        padding-bottom: 99px;
+        &__text {
+            margin-bottom: 66px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .banner {
+        padding-top: 153px;
+        padding-bottom: 90px;
+        &__text {
+            margin-bottom: 65px;
+            font-size: 0.64rem;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .banner {
+        padding-top: 143px;
+        padding-bottom: 84px;
+        &__text {
+            margin-bottom: 60px;
+            font-size: 0.72rem;
+        }
+    }
+}

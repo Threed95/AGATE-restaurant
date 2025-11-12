@@ -1,0 +1,27 @@
+.top {
+    @include circle-item (#FFAC1C, 70px, 70px, 70px);
+    position: fixed;
+    bottom: 19px;
+    right: 20px;
+    &:hover {
+        @include top-hover;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .top {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 10px;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}

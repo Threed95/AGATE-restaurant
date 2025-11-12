@@ -1,0 +1,23 @@
+.main-page {
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1440px) {
+    .main-page {
+        background: url(../images/banner1440.png);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .main-page {
+        background: url(../images/banner1024.png);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-page {
+        background: url(../images/banner768.png);
+    }
+}
